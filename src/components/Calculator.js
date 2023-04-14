@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import {calcualte} from "./operations";
-import {createNumbers} from "./createnumbers";
+import {calcualte} from "../operations";
+import {createNumbers} from "../createnumbers";
 
 export const Calculator = (props) => {
     const [inputVal, setInputValue] = useState(0);
