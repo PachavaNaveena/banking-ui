@@ -30,7 +30,7 @@ export const Registration = () => {
         <form id="form" onSubmit={onSubmit}>
             <div>
                 <label htmlFor="firstname">First Name</label>
-                <input type="text" name="firstname" id="firstname" placeholder="naveena" required />
+                <input type="text" name="firstname" id="firstname" placeholder="naveena" required  />
             </div>
             <div>
                 <label htmlFor="lastname">Last Name</label>

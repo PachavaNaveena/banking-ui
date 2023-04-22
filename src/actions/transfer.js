@@ -1,6 +1,9 @@
 import {axiosInstance} from "./index";
-export const register = async (user) => {
-    return axiosInstance.post('/user', user)
+
+
+
+export const doDeposit = async (user) => {
+    return axiosInstance.patch('/transaction/deposit', user)
         .then(function (response) {
             console.log(response.data)
             return response.data
@@ -11,8 +14,22 @@ export const register = async (user) => {
             }
         });
 }
-export const login = async (user) => {
-    return axiosInstance.post('/user/login', user)
+
+export const doWithdraw = async (user) => {
+    return axiosInstance.patch('/transaction/withdraw', user)
+        .then(function (response) {
+            console.log(response.data)
+            return response.data
+        })
+        .catch(function (error) {
+            return {
+                error: error.response.data
+            }
+        });
+}
+
+export const doTransfer = async (user) => {
+    return axiosInstance.patch('/transaction/transfer', user)
         .then(function (response) {
             console.log(response.data)
             return response.data
@@ -25,26 +42,3 @@ export const login = async (user) => {
 }
 
 
-export const getUserInfo = async () => {            // calling get user()
-    return axiosInstance.get('/user')
-        .then(function (response) {
-            return response.data
-        })
-        .catch(function (error) {
-            return {
-                error: error.response.data
-            }
-        });
-}
-
-export const getUserTransactions = async () => {
-    return axiosInstance.get('/transaction')
-        .then(function (response) {
-            return response.data
-        })
-        .catch(function (error) {
-            return {
-                error: error.response.data
-            }
-        });
-}
