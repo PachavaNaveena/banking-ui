@@ -20,10 +20,13 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 #### Created Landing page consists of both Registration and Login forms
+<img width="1728" alt="Landing Page" src="https://user-images.githubusercontent.com/40620274/233916962-b84e4cce-58a9-41eb-8011-3e1104fce265.png">
 
 #### Dashabord page consists of headers (mounts after Successful Login) & displays transactions
+<img width="1728" alt="Dashboard Page" src="https://user-images.githubusercontent.com/40620274/233917041-c7640ac7-a56a-4228-9030-ccc20553fa9d.png">
 
 #### Deposit page to deposit amount
+<img width="1728" alt="Deposit Page" src="https://user-images.githubusercontent.com/40620274/233916424-d6e86931-320c-4192-909b-fb40d0c78bc6.png">
 
 
 
