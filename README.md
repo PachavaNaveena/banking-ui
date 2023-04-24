@@ -1,10 +1,10 @@
 #Banking UI
 
 This Project is a Simple ReactJS Project which demonstrates the following
-Creating a Component in React
-Making HTTP calls
-Communicating between parent and child component
-Using Basic Routing in React 
+- Creating a Component in React
+- Making HTTP calls
+- Communicating between parent and child component
+- Using Basic Routing in React 
 
 # Getting Started with Create React App
 
