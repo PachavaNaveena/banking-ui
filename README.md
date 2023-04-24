@@ -25,8 +25,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 #### Dashabord page consists of headers (mounts after Successful Login) & displays transactions
 <img width="1728" alt="Dashboard Page" src="https://user-images.githubusercontent.com/40620274/233917041-c7640ac7-a56a-4228-9030-ccc20553fa9d.png">
 
-#### Deposit page to deposit amount
-<img width="1728" alt="Deposit Page" src="https://user-images.githubusercontent.com/40620274/233916424-d6e86931-320c-4192-909b-fb40d0c78bc6.png">
+#### Online Transfer to a another account
+<img width="1724" alt="image" src="https://user-images.githubusercontent.com/40620274/234028007-f0ec870c-6824-414b-aa27-cc375ba877a0.png">
+
 
 
 
